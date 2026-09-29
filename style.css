@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    text-align: center;
+    margin: 0;
+    padding: 4px;
+}
+table{
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+th, td{
+    padding: 18px;
+    border-bottom: 1px solid #ddd;
+}
+tbody tr:hover{
+    background-color: #eeeeee;
+}
+button{
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(182, 199, 202);
+}
+button:hover{
+    transform: scale(1.08);
+}
+.basico{
+    background-color: #3490db;
+    color: white;
+}
+.turbo{
+    background-color: #27ae60;
+    color: white;
+}
+.ultra{
+    background-color: #8e44ad;
+    color: white;
+}
+span{
+    color: #3dff95;
+}
+tfoot{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
